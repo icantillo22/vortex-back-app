@@ -8,6 +8,7 @@
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir build"
   },
+  "heroku-run-build-script": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
